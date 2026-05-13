@@ -3,3 +3,52 @@
     margin: 0;
     padding: 0;
 }
+body {
+    /* width: 100vw; */
+}
+/* todo navigation bar */
+header {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    background-color: #222330;
+    color: white;
+    margin-top: 10px;
+}
+.logo h2 i {
+    color: #7bb100;
+}
+.nav-list {
+    display: flex;
+    align-items: center;  
+    list-style: none;
+    gap: 20px;
+}
+.nav-list li a{
+    color: white;
+    text-decoration: none;
+}
+.nav-list li a:hover{
+    color: #7bb100;
+}
+.nav-list li a:focus {
+    color: #7bb100;
+    outline: none;
+}
+.start-btn {
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #7bb100;
+    color: white;
+    border: none;
+}
+
