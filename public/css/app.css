@@ -190,7 +190,7 @@ section.services {
 }
 .services-headding p{
 padding: 15px;
-color: #e5e6ea;
+color: #e5e6ea5c;
 }
 .services-cards {
     display: flex;
@@ -202,14 +202,14 @@ color: #e5e6ea;
 .services-card {
     display: flex;
     gap: 10px;
-    border-bottom: 1px solid #e5e6ea;
+    border-bottom: 1px solid #e5e6ea5c;
     padding-bottom: 40px;
     margin-bottom: 30px;
 }
 .services-card-special {
     display: flex;
     gap: 10px;
-    border-bottom: 1px solid #e5e6ea;
+    border-bottom: 1px solid #e5e6ea5c;
     padding-bottom: 24px;
 }
 .services-order-num {
@@ -224,7 +224,7 @@ color: #e5e6ea;
     gap: 20px;
 }
 .services-info p {
-    color: #e5e6ea;
+    color: #e5e6ea5c;
     line-height: 30px;
 }
 .services-tag {
@@ -253,11 +253,11 @@ color: #e5e6ea;
     margin-bottom: 50px;
 }
 .services-cta-info {
-    border-top: 1px solid #e5e6ea;
+    border-top: 1px solid #e5e6ea5c;
     padding-top: 35px;
 }
 button.services-cta-btn {
-    padding: 20px;
+    padding: 12px;
     border-radius: 30px;
     background-color: #7bb100;
     color: white;
@@ -266,7 +266,137 @@ button.services-cta-btn {
     font-weight: 700;
     cursor: pointer;
 }
-
-
-
-
+/* todo Portfolio section */
+section.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.portfolio-headding {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0px 10px 0px;
+}
+.portfolio-headding h1{
+    padding: 25px 0px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid gray;
+}
+.portfolio-headding span{
+    padding: 24px 0px;
+    border-bottom: 3px solid #7bb100;
+}
+.portfolio-headding p{
+padding: 15px;
+color: #e5e6ea5c;
+}
+.portfolio-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+}
+.portfolio-nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+}
+.portfolio-nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+.portfolio-nav ul li a:active {
+    /* color: white; */
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: #7bb100;
+    color: white;
+    border: none;
+}
+/* todo portfolio cards section  */
+.portfolio-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    gap: 20px;
+}
+.portfolio-card .img img{
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.portfolio-card p {
+    margin: 15px 0px;
+    font-size: 13px;
+    line-height: 22px;
+}
+.portfolio-card p i {
+    color: #fbbf24;
+}
+.portfolio-card .portfolio-tags {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.portfolio-card .portfolio-tags span {
+    padding: 5px 10px;
+    border: 1px solid #e5e6ea5c;
+    border-radius: 30px;
+    background-color: #2e2f41;
+}
+.portfolio-card a {
+    color: white;
+    /* padding: 20px; */
+}
+.portfolio-card .view-project {
+    margin-bottom: 50px;
+    border-bottom: 1px solid #e5e6ea5c;
+    padding-bottom: 40px;
+}
+.portfolio-cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    padding: 25px 0px;
+    line-height: 45px;
+    margin-bottom: 50px;
+    border-top: 1px solid #e5e6ea5c;
+    padding-top: 35px;
+}
+.portfolio-cta-info {
+    /* border-top: 1px solid #e5e6ea5c;
+    padding-top: 35px; */
+}
+.portfolio-cta-btns {
+    display: flex;
+    gap: 20px;
+}
+button.portfolio-cta-btn {
+    padding: 12px;
+    border-radius: 30px;
+    background-color: #7bb100;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+button.portfolio-Explore-link {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer; 
+}
