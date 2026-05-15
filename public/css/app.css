@@ -356,7 +356,7 @@ color: #e5e6ea5c;
 }
 .portfolio-card a {
     color: white;
-    /* padding: 20px; */
+    text-decoration: none;
 }
 .portfolio-card .view-project {
     margin-bottom: 50px;
@@ -400,3 +400,204 @@ button.portfolio-Explore-link {
     font-weight: 700;
     cursor: pointer; 
 }
+
+/* todo why us section */
+section.why-us-section {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 25px 0px;
+    line-height: 45px;
+    margin-bottom: 50px;
+    border-top: 1px solid #e5e6ea5c;
+    padding-top: 35px;
+}
+.why-us-headding {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0px 10px 0px;
+}
+.why-us-headding h1 {
+    padding: 25px 0px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid gray;
+}
+.why-us-headding span {
+    padding: 24px 0px;
+    border-bottom: 3px solid #7bb100;
+}
+.why-us-headding p {
+    padding: 15px;
+    color: #e5e6ea5c;
+}
+.why-us-headding-h1 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+.why-us-cta-btns {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    height: 25vh;
+}
+button.why-us-cta-btn {
+        padding: 12px;
+    border-radius: 30px;
+    background-color: #7bb100;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+button.why-us-Explore-link {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 12px;
+}
+.why-us-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+}
+
+.why-us-analitics-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90vw;
+    margin-top: 30px;
+}
+.why-us-analitics-card {
+    padding: 40px 30px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    height: 100%;
+    border: 1px solid #e5e6ea5c;
+}
+.why-us-analitics-card.f-card{
+    border-left: none;
+}
+.why-us-analitics-card.t-card{
+    border-right: none;
+}
+.why-us-analitics-card-icon {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.why-us-analitics-card-icon i{
+    font-size: 32px;
+    color: #7bb100
+}
+.why-us-analitics-card-info {
+    
+}
+.why-us-analitics-card-info h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.why-us-analitics-card-info p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #e5e6ea8c;
+}
+.why-us-analitics-card-value {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 8px;
+}
+.why-us-analitics-card-value span {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+span.why-us-analitics-card-percentage {
+    font-size: 24px;
+    font-weight: 600;
+    color: #7bb100;
+    margin-left: 2px;
+}
+/* todo why-us-analitics-showcase */
+.why-us-analitics-showcase {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    margin-top: 50px;
+}
+.why-us-analitics-showcase-image {
+    
+}
+.why-us-analitics-showcase-image img{
+    height: 250px;
+    width: 100%;
+}
+.why-us-analitics-showcase-content h3{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.15;
+    letter-spacing: -0.5px;
+    margin-bottom: 40px;
+}
+.why-us-analitics-showcase-content h5{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    line-height: 1.2;
+}
+.why-us-analitics-showcase-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+}
+.why-us-analitics-showcase-features {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 20px;
+}
+span.why-us-analitics-showcase-index {
+    color: #7bb100;
+}
+.why-us-analitics-showcase-features p{
+    color: #e5e6ea8c;
+}
+.why-us-analitics-showcase-content{
+    
+}
+.why-us-analitics-showcase-content{
+    
+}
+.why-us-analitics-showcase-content{
+    
+}
+.why-us-analitics-showcase-content{
+    
+}
+
+
+
+
