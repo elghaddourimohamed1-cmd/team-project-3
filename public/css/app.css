@@ -19,13 +19,9 @@
 body {
   /* width: 100vw; */
   background: rgb(14, 16, 34);
-}
+  color: white
+ }
 /* todo navigation bar */
-header {
-  display: flex;
-  justify-content: center;
-  /* width: 100vw; */
-}
 .navigation-bar {
   display: flex;
   justify-content: space-between;
@@ -758,10 +754,10 @@ section.portfolio {
   border-top: 1px solid #e5e6ea5c;
   padding-top: 35px;
 }
-.portfolio-cta-info {
-  /* border-top: 1px solid #e5e6ea5c;
-    padding-top: 35px; */
-}
+/* .portfolio-cta-info {
+  border-top: 1px solid #e5e6ea5c;
+    padding-top: 35px;
+} */
 .portfolio-cta-btns {
   display: flex;
   gap: 20px;
