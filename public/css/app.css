@@ -962,7 +962,7 @@ span.why-us-analitics-showcase-index {
   justify-content: center;
   align-items: center;
   max-width: 100vw;
-  margin: 7rem 0rem 0rem 0rem;
+  margin: 3rem 0rem 0rem 0rem;
   gap: 3rem;
 }
 .testimonials-two-card {
@@ -982,7 +982,7 @@ span.why-us-analitics-showcase-index {
   font-family: "Montserrat", sans-serif;
   border-bottom: 1px solid wheat;
   /* text-align: center; */
-  padding: 0 0 1.2rem 0;
+  padding: 0 0 1rem 0;
 }
 .title span {
   border-bottom: 4px solid #7bb100;
@@ -997,11 +997,12 @@ span.why-us-analitics-showcase-index {
   flex-direction: column;
   background: #181b28;
   width: 35rem;
-  height: 20rem;
+  /* height: 20rem; */
   justify-content: center;
   padding: 1rem 0 0 0;
   border-radius: 10px;
   margin: 0 0 0rem 0;
+  line-height: 30px;
 }
 .testimonials-card:hover{
   box-shadow: rgba(255, 253, 253, 0.45) 0px 25px 50px -20px;
