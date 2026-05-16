@@ -983,6 +983,7 @@ span.why-us-analitics-showcase-index {
   border-bottom: 1px solid wheat;
   /* text-align: center; */
   padding: 0 0 1.2rem 0;
+  padding: 0 0 1.2rem 0;
 }
 .title span {
   border-bottom: 4px solid #7bb100;
@@ -1002,7 +1003,6 @@ span.why-us-analitics-showcase-index {
   padding: 1rem 0 0 0;
   border-radius: 10px;
   margin: 0 0 0rem 0;
-  /* line-height: 30px; */
 }
 .testimonials-card:hover {
   box-shadow: rgba(255, 253, 253, 0.45) 0px 25px 50px -20px;
@@ -1055,6 +1055,7 @@ span.why-us-analitics-showcase-index {
 .swiper-div p {
   border: 1px solid rgb(94, 89, 80);
   padding: 20px 20px;
+  padding: 20px 20px;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -1063,9 +1064,249 @@ span.why-us-analitics-showcase-index {
   background-color: rgb(230, 219, 219);
 }
 
-/* todo team section  */
+                 /* todo team section  */
+.team {
+    margin-top: 100px;
+    /* width: 90vw; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 90px;
+    margin: 100px 0px;
+}
+.team .team-our-people {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    border-bottom: 1px solid #e5e6ea8c;
+    padding-bottom: 50px;
+}
+.team .team-our-people-info {
+    width: 30vw;
+}
+.team .team-our-people-info span.label{
+    font-size: 14px;
+    font-weight: 500;
+    color:#e5e6ea8c;
+    margin-bottom: 15px;
+}
+.team .team-our-people-info h3 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.15;
+    letter-spacing: -0.5px;
+    margin-bottom: 20px;
+}
+.team .team-our-people-info p {
+    font-size: 16px;
+    line-height: 1.75;
+    color: #e5e6ea8c;
+    margin-bottom: 35px;
+    max-width: 450px;
+}
+.team .team-our-people-info .team-our-people-info-analitics{
+    display: flex;
+    gap: 0;
+    border-top: 1px solid #e5e6ea8c;
+    padding-top: 25px;
+}
+.team .team-our-people-info .team-our-people-info-analitics-data{
+    border-right: 1px solid #e5e6ea8c;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+.team .team-our-people-info .team-our-people-info-analitics-data:last-child{
+    border-right: none;
+}
+.team .team-our-people-info .team-our-people-info-analitics-data span:last-child{
+    color: #e5e6ea8c;
+}
+.team .team-our-people-info .team-our-people-info-analitics-data-num{
+    font-size: 32px;
+    font-weight: 700;
+    color: #7bb100;
+    margin-bottom: 4px;
+}
+.team .team-our-people-persons {
+    /* width: 60vw; */
+    display: flex;
+    align-items: center;
+    gap: 15px
+}
+.team .team-our-people-persons img{
+    height: 150px;
+}
+.team .team-our-people-persons .member-details span {
+    font-size: 12px;
+    color: #e5e6ea8c;
+}
+.leadership-headding {
+    display: flex;
+    align-items: self-end;
+    justify-content: space-between;
+    width: 90vw;
+    margin-bottom: -60px;
+}
+.leadership-headding span.label {
+    color: #e5e6ea8c;
+}
+.leadership-headding h3 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.15;
+    letter-spacing: -0.5px;
+    margin-bottom: 20px;
+}
+.leadership-headding span.swipe {
+    color: #e5e6ea8c;
+}
+/* todo swipre cards */
+.swiper-cards {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    gap: 20px;
+}
+.swiper-cards .leader-photo img {
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+}
+.swiper-cards .swiper-card {
+    border: 1px solid #e5e6ea23;
+    width: 100vw;
+    height: 77vh;
+    background-color: #181b28;
+}
+.swiper-cards .swiper-card:hover {
+    box-shadow: rgba(255, 253, 253, 0.45) 0px 25px 50px -20px;
+}
 
-/* todo contact section  */
+.swiper-cards .swiper-card .leader-info{
+    padding: 25px;
+}
+.swiper-cards .swiper-card .leader-info h5{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.swiper-cards .swiper-card .leader-info span{
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #7bb100;
+    margin-bottom: 12px;
+}
+.swiper-cards .swiper-card .leader-info p{
+    font-size: 14px;
+    color: #e5e6ea8c;
+    margin-bottom: 25px;
+}
+.swiper-cards .swiper-card .leader-info .leader-links {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+.swiper-cards .swiper-card .leader-info .leader-links a {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 12px;
+    border: 1px solid #e5e6ea23;
+    padding: 10px;
+}
+.leader-links a:hover {
+    background: #7bb100;
+    transform: translateY(-4px);
+}
+.leader-links a {
+  position: relative;
+  display: inline-block;
+}
+.tooltip-text {
+  visibility: hidden;
+  background-color: #7bb100;
+  color: white !important;
+  padding: 10px;
+  position: absolute;
+  bottom: 110%;
+  left: 50%;
+  transform: translateX(-50%);
+  /* transition: all 0.5 ease-in-out; */
+  transition: all 0.5 ease-in;
+  border-radius: 4px;
+  /* transition: ease-in 0.5s; */
+}
+.leader-links a:hover .tooltip-text {
+  visibility: visible;
+}
+ /* todo team call to action   */
+.team-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90vw;
+  padding: 25px ;
+  line-height: 45px;
+  margin-bottom: 50px;
+  padding-top: 35px;
+  border: 1px solid #e5e6ea23;
+  background-color: #181b28;
+}
+.team-cta-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.team-cta-info .team-cta-info-arrow-up {
+    font-size: 40px;
+    color: #7bb100;
+    border: 1px solid #e5e6ea23;
+    padding: 10px;
+}
+.team-cta-info .team-cta-content p {
+    width: 40vw;
+    font-size: 14px;
+    color: #e5e6ea8c;
+    line-height: 25px;
+}
+.team-cta-btns {
+  display: flex;
+  gap: 20px;
+}
+button.team-cta-btn {
+  padding: 12px;
+  border-radius: 30px;
+  background-color: #7bb100;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+button.team-cta-btn:hover {
+    transform: translateY(-4px);
+    background: color-mix(in srgb, #7bb100, var(#e5e6ea) 15%);
+    box-shadow: 0 15px 40px color-mix(in srgb, #7bb100, transparent 70%);
+}
+button.team-Explore-link {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer; 
+    transition: all 0.3s ease-out;
+    position: relative;
+}
+button.team-Explore-link:hover {
+    color: #7bb100;
+    transition: all 0.3s ease-out;
+    text-decoration-line: underline;
+}
+                 /* todo contact section  */
 .contact {
   display: flex;
   flex-direction: column;
@@ -1343,3 +1584,9 @@ span.why-us-analitics-showcase-index {
 .contact-btn:hover i {
   transform: translateX(3px);
 }
+
+                 /* todo footer section  */
+
+
+
+
