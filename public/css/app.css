@@ -73,7 +73,16 @@ header {
   text-decoration: none;
 }
 .nav-list li a:hover {
-  color: #7bb100;
+   /* color: #7bb100; */
+    background-color: #7bb10085;
+    padding: 13px;
+    border-bottom: 5px solid #7bb100;
+    animation: slideUp 0.5s ease-out forwards;
+    /* transform: translateY(100%);
+    opacity: 0;
+    transform: translateY(0);
+    opacity: 1;
+    animation: slideUp 0.5s ease-out forwards; */
 }
 .nav-list li a:focus {
   color: #7bb100;
@@ -1731,4 +1740,41 @@ list-style: none;
   color: #fff;
   background: #7bb100;
   text-decoration: none;
+}
+/* todo scroll-up  */
+html {
+  scroll-behavior: smooth;
+}
+ /* #home1.active {
+    visibility: hidden;
+    opacity: 1;
+    bottom: 15px;
+} */
+#home1 {
+  position: fixed;
+  visibility: visible;
+  right: 20px;
+  bottom: 45px;
+  opacity: 1;
+  z-index: 99999;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  transition: all 0.4s;
+color: transparent;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home1:hover {
+    transform: translateY(-4px);
+    background: color-mix(in srgb, #7bb100, var(#e5e6ea) 15%);
+    box-shadow: 0 15px 40px 
+    color-mix(in srgb, #7bb100, transparent 70%);
+}
+
+#home1 i{
+  color: #7bb100;
+  font-size: 40px;
 }
