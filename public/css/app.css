@@ -1625,3 +1625,110 @@ button.team-Explore-link:hover {
 }
 
 /* todo footer section  */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}                 
+.footer-nav-links-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    line-height: 35px;
+}
+.footer-about {
+    margin-right: 200px;
+}
+.footer .footer-about .logo span {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: white;
+}
+.footer-nav-links-top .footer-about .logo a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.footer-nav-links-top .footer-about .logo {
+    margin-bottom: 40px;
+}
+.footer-contact {
+    line-height: 25px;
+}
+.footer-contact .address {
+    margin-bottom: 20px;
+}
+.footer-about span {
+      line-height: 1;
+  margin-bottom: 25px;
+}
+
+.footer-nav-links-top-col a {
+  color: #e5e6ea8c;
+  text-decoration: none;
+}
+.footer-nav-links-top-col a:hover {
+  color: #7bb100;
+  text-decoration: none;
+}
+.footer-nav-links-top-col ul {
+list-style: none;
+}
+
+.footer-nav-links-top-col h4 {
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 12px;
+  margin-bottom: 15px;
+}
+.footer-nav-links-top-col h4::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #7bb100;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 40px 120px 40px 55px;
+    background-color: #000216;
+    line-height: 30px;
+}
+.footer-copyright .footer-bottom-left .made a {
+  color: #7bb100;
+  text-decoration: none;
+
+}
+
+.footer-social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: color-mix(in srgb, #fff, transparent 92%);
+  color: #7bb100;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 4px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+.footer-social-links a:hover {
+  color: #fff;
+  background: #7bb100;
+  text-decoration: none;
+}
